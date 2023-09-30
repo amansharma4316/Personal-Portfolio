@@ -6,7 +6,3 @@ It is a fully responsive personal portfolio website, responsive for all devices,
 
  
  </div>
- 
-## Demo
-
-
