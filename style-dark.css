@@ -492,6 +492,19 @@ main {
 }
 
 
+/* Dark Mode */
+
+#theme-toggle {
+    background: hsla(240, 1%, 17%, 0.75);
+    color: var(--white-1);
+}
+
+#theme-toggle:hover {
+    background-color: var(--white-1);
+    color: var(--jet);
+}
+
+
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
