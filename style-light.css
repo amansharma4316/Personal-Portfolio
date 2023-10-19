@@ -271,8 +271,8 @@ article.active {
 }
 
 .content-card {
-    position: relative;
-    background: yellow;
+    /* position: relative; */
+    background: goldenrod;
     padding: 15px;
     padding-top: 45px;
     border-radius: 14px;
@@ -1220,7 +1220,7 @@ main {
     width: 100%;
     height: 100%;
     border: none;
-    filter: grayscale(1) invert(1);
+    /* filter: grayscale(1) invert(1); */
 }
 
 .contact-form {
