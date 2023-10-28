@@ -495,13 +495,19 @@ main {
 /* Dark Mode */
 
 #theme-toggle {
-    background: hsla(240, 1%, 17%, 0.75);
-    color: var(--white-1);
+    color: var(--light-gray);
+    font-size: var(--fs-8);
+    padding: 20px 7px;
+    transition: color var(--transition-1);
 }
 
-#theme-toggle:hover {
-    background-color: var(--white-1);
-    color: var(--jet);
+#theme-toggle:hover,
+#theme-toggle:focus {
+    color: var(--light-gray-70);
+}
+
+#theme-toggle.active {
+    color: var(--orange-yellow-crayola);
 }
 
 
