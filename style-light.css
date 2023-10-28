@@ -884,6 +884,32 @@ main {
     line-height: 1.6;
 }
 
+.cv-item-title {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffe013;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--fs-6);
+    line-height: 1.3;
+    margin-bottom: 7px;
+}
+
+.cv-icon::before {
+    content: "\2193";
+    /* Unicode arrow-down character (Download icon) */
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.cv-item-title:hover {
+    background-color: var(--white-1);
+    color: var(--jet);
+}
+
 
 /**
  * skills 
